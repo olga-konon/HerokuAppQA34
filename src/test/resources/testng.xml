@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1"
+       name="HerokuApp suite"
+       parallel="classes">
+    <test name="Thread 1">
+        <classes>
+            <class name="hw.ContextMenuTest"/>
+            <class name="hw.DynamicControlTest"/>
+            <class name="hw.FileUploadTest"/>
+            <class name="hw.FileDownloadTest"/>
+            <class name="hw.HoversTest"/>
+            <class name="hw.IFrameTest"/>
+        </classes>
+    </test>
+</suite>
